@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rooms xsi:noNamespaceSchemaLocation="Rooms_Schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <room>
+    <location>a2</location>
+    <name>Gartentor</name>
+    <descriptions>Du siehst ein etwas verwahrlostes Anwesen in der Ferne. 
+Das muss das Haus deiner Tante sein.
+Vor dir liegt ein Gartentor, dass schon ein bisschen rostig scheint. 
+Hier war wohl eine Weile niemand mehr.
+Neben dem Gartentor hängt ein leicht verblichener Zeitungsartikel. 
+Am Zaun steht ein auffälliger roter Briefkasten, 
+dessen Farbe aber schon ein bisschen ausgeblichen ist.
+Südlich liegt der Vorgarten.</descriptions>
+    <valid_directions>
+      <up door="None">None</up>
+      <down door="a2b2">b2</down>
+      <left door="None">None</left>
+      <right door="None">None</right>
+     </valid_directions>
+  </room> 
+  
+  <room>
+    <location>b2</location>
+    <name>Vorgarten</name>
+    <descriptions>Man erkennt, dass dies mal ein hübsch angelegter Vorgarten war. 
+Leider ist von der einstmaligen Schönheit nicht mehr viel zu erkennen. 
+Vor dir kannst du die Haustür im Eingangsbereich des Hauses erkennen. 
+Im Garten gibt es einen dieser dreistöckigen Brunnen, 
+die oft in solch herrschaftlichen Anwesen zu finden sind. 
+Außerdem siehst du mehrere Büsche und Bäume, 
+alle ein bisschen zugewuchert und pflegebedürftig. 
+Siehst du etwas blitzen im Augenwinkel?
+Südlich liegt das Haus. Nördlich liegt das Gartentor.</descriptions>
+    <valid_directions>
+      <up door="a2b2">a2</up>
+      <down door="b2c2">c2</down>
+      <left door="None">None</left>
+      <right door="None">None</right>
+      </valid_directions>
+  </room>
+  
+  
+  <room>
+      <location>c1</location>
+      <name>Küche</name>
+      <descriptions>Die Küche sieht schon ein bisschen verwohnt aus. 
+Außerdem war hier schon länger niemand mehr...
+Spinnenweben hängen hier und da von der Decke herab 
+und auch sonst ist es ziemlich staubig hier. 
+Auf dem Tisch steht noch ein dreckiger Teller von einstmals. 
+Er ist schon überdeckt von Schimmel und du wendest deinen Blick lieber davon ab. 
+Da gibt es weitaus interessanteres in diesem 
+Raum als ein paar Schimmelkulturen...
+Zum Beispiel bemerkst du, dass der Kühlschrank brummt. 
+Der scheint noch an zu sein.
+Östlich liegt die Diele.
+</descriptions>
+      <valid_directions>
+        <up door="None">None</up>
+        <down door="None">None</down>
+        <left door="None">None</left>
+        <right door="c1c2">c2</right>
+      </valid_directions>
+  </room>
+  
+  <room>
+      <location>c2</location>
+      <name>Diele</name>
+      <descriptions>Sofort wenn man die Diele betritt, 
+fällt der Blick auf die verfallene Treppe ins Obergeschoss. 
+Hier kommt wirklich niemand mehr hoch. 
+An der linken Wand hängt ein Bild von deiner Tante Marion und von Onkel Herbert. 
+Aber was ist mit Onkel Herberts Gesicht passiert?
+Nördlich liegt der Vorgarten. Südlich liegt das Wohnzimmer.
+Westlich liegt die Küche. Östlich liegt das Schlafzimmer.</descriptions>
+      <valid_directions>
+        <up door="b2c2">b2</up>
+        <down door="c2d2">d2</down>
+        <left door="c1c2">c1</left>
+        <right door="c2c3">c3</right>
+      </valid_directions>
+    </room>
+  
+  <room>
+      <location>c3</location>
+      <name>Schlafzimmer</name>
+      <descriptions>Auf dem großen Bett liegt die Bettwäsche zerknauscht und unordentlich da. 
+In der Mitte erkennst du eine kleine Kuhle. 
+Die Tür vom großen Kleiderschrank steht einen Spalt breit offen.
+Westlich liegt die Diele.</descriptions>
+      <valid_directions>
+        <up door="None">None</up>
+        <down door="None">None</down>
+        <left door="c2c3">c2</left>
+        <right door="None">None</right>
+      </valid_directions>
+    </room>
+  
+  <room>
+      <location>d2</location>
+      <name>Wohnzimmer</name>
+      <descriptions>Das Sofa ist von einem großen weißen Laken bedeckt 
+und der Fernseher läuft...
+Warte...der Fernseher läuft? Wie geht das und warum? 
+In der Ecke steht ein Schrank, der dich gradezu anzieht.
+Nördlich liegt die Diele. Südlich liegt der Garten.
+Westlich liegt das Badezimmer.
+</descriptions>
+      <valid_directions>
+        <up door="c2d2">c2</up>
+        <down door="d2e2">e2</down>
+        <left door="d1d2">d1</left>
+        <right door="None">None</right>
+      </valid_directions>
+  </room>
+  
+  <room>
+      <location>d1</location>
+      <name>Badezimmer</name>
+      <descriptions>So ein großes Badezimmer hättest du auch gern in deiner 2-Zimmer-Bude. 
+Es gibt eine Badewanne und zusätzlich sogar eine Dusche! 
+Hier und da sind zwar ein paar Kacheln gerissen, 
+aber im Großen und Ganzen wirkt der Raum noch 
+viel lebendiger als die anderen Räume hier im Haus. 
+Vielleicht liegt das aber auch an diesem übergroßen Spiegel.
+In der Ecke entdeckst du außerdem einen Badezimmerschrank.
+Östlich liegt das Wohnzimmer.</descriptions>
+      <valid_directions>
+        <up door="None">None</up>
+        <down door="None">None</down>
+        <left door="None">None</left>
+        <right door="d1d2">d2</right>
+      </valid_directions>
+  </room>
+  
+  <room>
+      <location>e2</location>
+      <name>Garten</name>
+      <descriptions>Der Garten wirkt, als wäre er einstmals wunderschön gewesen. 
+Aber die Natur holt sich schnell zurück, was sie braucht. 
+Das Gras wächst meterhoch. 
+Weiter hinten kannst du einen Apfelbaum und eine Bank darunter erkennen. 
+Auch eine ziemlich bewachsene Statue einer Frau kannst du erkennen.
+Nördlich liegt die Gartentür zum Wohnzimmer.</descriptions>
+      <valid_directions>
+        <up door="d2e2">d2</up>
+        <down door="None">None</down>
+        <left door="None">None</left>
+        <right door="None">None</right>
+      </valid_directions>
+    </room>
+  
+  <doors>
+    <door id="a2b2" ini_state="1">
+    </door>
+    <door id="b2c2" ini_state="0">
+      <name>Haustür</name>
+      <state s="0">
+        <output input="examine" change_s="False">Eine herrschaftliche Eichentür liegt vor dir.</output>
+        <output input="open" change_s="False">Die Haustür ist verschlossen. Du musst sie erst aufschließen.</output>
+        <output input="unlock" change_s="True" key="goldener Schlüssel">Du hast die Haustür aufgeschlossen und kannst nun das Haus betreten.</output>
+      </state>
+      <state s="1">
+        <output input="examine" change_s="False">Eine herrschaftliche Eichentür.</output>
+      </state>
+    </door>
+    <door id="c1c2" ini_state="0">
+      <name>Küchentür</name>
+      <state s="0">
+        <output input="examine" change_s="False">Hinter dieser Tür liegt wohl die Küche.</output>
+        <output input="open" change_s="False">Du brauchst erst einen Schlüssel für die Küchentür.</output>
+        <output input="unlock" change_s="True" key="gewöhnlicher Schlüssel">Du hast die Küchentür aufgeschlossen und kannst nun hindurch gehen.</output>
+      </state>
+      <state s="1">
+        <output input="examine" change_s="False">Eine Küchentür.</output>
+      </state>
+    </door>
+    <door id="c2d2" ini_state="1">
+    </door>
+    <door id="c2c3" ini_state="1">
+    </door>
+    <door id="d1d2" ini_state="1">
+    </door>
+    <door id="d2e2" ini_state="0">
+      <name>Gartentür</name>
+      <state s="0">
+        <output input="examine">Die Tür klemmt...vielleicht kannst du etwas benutzen, um sie aufzubrechen...</output>
+        <output input="open">Die Tür klemmt...vielleicht kannst du etwas benutzen, um sie aufzubrechen...</output>
+        <output input="force" change_s="True" key="Brecheisen">Du hast die Tür mit dem Brecheisen aufgebrochen. Du kannst nun hindurch gehen.</output>
+      </state>
+      <state s="1">
+        <output input="examine" change_s="False">Eine Gartentür mit einem kleinen Fenster darin.</output>
+      </state>
+    </door>
+  </doors>
+  
+  
+  <objects>
+    <object id="a2">
+      <name>Zeitungsartikel</name>
+      <state s="0">
+        <output input="examine">
+          WAS IST MIT DEM MARRYWICK-ANWESEN GESCHEHEN?
+          Ein tragischer Unfall führte dazu, dass alle Anwesenden starben.
+          Die Umstände sind unbekannt.
+          Scheinbar erben entfernte Verwandte nun das Anwesen.
+        </output>
+        <output input="read">
+          WAS IST MIT DEM MARRYWICK-ANWESEN GESCHEHEN?
+          Ein tragischer Unfall führte dazu, dass alle Anwesenden starben.
+          Die Umstände sind unbekannt.
+          Scheinbar erben entfernte Verwandte nun das Anwesen.
+        </output>
+      </state>
+    </object>
+    <object id="a2">
+      <name>Briefkasten</name>
+      <state s="0">
+        <output input="examine">Ein silberfarbener Briefkasten. Er wirkt nicht unbedingt besonders, aber es könnte ja etwas darin sein, dass mir hilft...</output>
+        <output input="open">Der Briefkasten ist verschlossen. Vielleicht liegt der Schlüssel ja im Haus.</output>
+        <output input="unlock" trigger_i="augenförmiger Rubin" change_s="True" key="Briefkastenschlüssel">Du hast einen augenförmigen Rubin gefunden.</output>
+      </state>
+      <state s="1">
+        <output input="examine">Der Briefkasten ist bereits aufgeschlossen und es befindet sich nichts interessantes mehr darin.</output>
+      </state>
+    </object>
+    <object id="b2">
+      <name>Brunnen</name>
+    <state s="0">
+      <output input="examine" trigger_i="goldener Schlüssel" change_s="True">Du hast einen goldenen Schlüssel gefunden.</output>
+    </state>
+    <state s="1">
+      <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+    </state>
+    </object>
+    <object id="b2">
+      <name>Busch</name>
+    <state s="0">
+      <output input="examine" trigger_i="Brecheisen" change_s="True">Du hast ein Brecheisen gefunden.</output>
+    </state>
+    <state s="1">
+      <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+    </state>
+    </object>
+    <object id="c2">
+      <name>Bild</name>
+    <state s="0">
+      <output input="examine">Das Gesicht des Onkels wurde verbrannt. Wer kann das gewesen sein und warum?</output>
+    </state>
+    </object>
+    <object id="c2">
+      <name>Treppe</name>
+    <state s="0">
+      <output input="examine">Über diese Treppe kommst du nicht mehr ins Obergeschoss.</output>
+    </state>
+    </object>
+    <object id="c2">
+      <name>Teppich</name>
+      <state s="0">
+        <output input="examine">Ein schwerer großer Teppich, der hier den Eingangsbereich ziert.</output>
+      </state>
+      <state s="1">
+        <output input="examine" change_s="True" trigger_o="Falltür">Du findest eine Falltür unter dem Teppich.</output>
+        <output input="move" change_s="True" trigger_o="Falltür">Du hast den Teppich zur Seite bewegt und findest darunter eine Falltür.</output>
+      </state>
+      <state s="2"></state>
+    </object>
+    <object id="c2">
+      <name>Falltür</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine">Eine hölzerne Falltür. Was da wohl drunter ist?</output>
+        <output input="open" change_s="True" trigger_o="Holzkiste">Du hast die Falltür geöffnet. Du siehst eine kleine Grube mit einer Holzkiste darin.</output>
+      </state>
+      <state s="2">
+        <output input="examine">Du siehst eine kleine Grube mit einer Holzkiste darin.</output>
+      </state>
+    </object>
+    <object id="c2">
+      <name>Holzkiste</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine">Eine gewöhnliche Holzkiste ohne Schloss.</output>
+        <output input="open" change_s="True" trigger_i="Amulett der Leere">Du hast das Amulett der Leere gefunden.</output>
+      </state>
+      <state s="2"></state>
+    </object>
+    <object id="c3">
+      <name>Bett</name>
+      <state s="0">
+        <output input="examine">Das Bettzeug liegt unaufgeräumt da. Du erkennst kleine schwarze Fellreste auf der Bettdecke.</output>
+      </state>
+    </object>
+    <object id="c3">
+      <name>Kleiderschrank</name>
+      <state s="0">
+        <output input="examine">Im Kleiderschrank könnte etwas interessantes sein. Die Tür steht einen Spalt breit offen.</output>
+        <output input="open" change_s="True" trigger_i="Desinfektionsmittel" trigger_o="Katze">Du findest eine zierliche, schwarze Katze im Schrank. Ob das Cleo ist? Als du die Tür öffnest, hebt sie ihren Kopf an und mauzt kläglich. Außerdem liegt Desinfektionsmittel im Schrank. Das nimmst du besser mal mit.</output>
+      </state>
+      <state s="1">
+        <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+      </state>
+    </object>
+    <object id="c3">
+      <name>Katze</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine" trigger_i="Briefkastenschlüssel" change_s="True" change_r="c2">Die Katze springt auf und rennt miauzend aus dem Raum. Unter ihr lag der Schlüssel für den Briefkasten, den du nun an dich nimmst.</output>
+        <output input="pet" trigger_i="Briefkastenschlüssel" change_s="True" change_r="c2">Die Katze springt auf und rennt miauzend aus dem Raum. Unter ihr lag der Schlüssel für den Briefkasten, den du nun an dich nimmst.</output>
+      </state>
+      <state s="2">
+        <output input="examine">Die Katze sitzt auf dem Teppich, miauzt und schart mit der Pfote. Was sie wohl will? Sobald du dich ihr näherst, faucht sie wie wild. Vielleicht kannst du sie mit etwas leckerem ablenken?</output>
+        <output input="pet">Die Katze faucht wie wild. Vielleicht kannst du sie mit etwas leckerem ablenken?</output>
+        <output input="feed" key="Milch" change_s="True" trigger_o="Teppich">Du hast der Katze Milch gegeben. Jetzt scheint sie glücklich zu sein und gibt den Teppich frei.</output>
+      </state>
+      <state s="3">
+        <output input="examine">Die Katze liegt im super entspannten Katzen-Zen-Modus auf einem Sessel in der Ecke. Besser du lässt sie jetzt in Ruhe.</output>
+      </state>
+    </object>
+    <object id="c1">
+      <name>Tisch</name>
+      <state s="0">
+        <output input="examine">Ein Tisch mit vier Beinen.</output>
+      </state>
+    </object>
+    <object id="c1">
+      <name>Kühlschrank</name>
+      <state s="0">
+        <output input="examine" trigger_i="Milch" change_s="True">Du hast Milch gefunden. Die könnte der Katze schmecken.</output>
+        <output input="open" trigger_i="Milch" change_s="True">Du hast Milch gefunden. Die könnte der Katze schmecken.</output>
+      </state>
+      <state s="1">
+        <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+      </state>
+    </object>
+    <object id="d2">
+      <name>Fernseher</name>
+      <state s="0">
+        <output input="examine">Auf dem Fernseher steht 'blau gelb grün rot'.</output>
+      </state>
+    </object>
+    <object id="d2">
+      <name>Sofa</name>
+      <state s="0">
+        <output input="examine">Das Sofa wirkt alt und abgesessen.</output>
+      </state>
+    </object>
+    <object id="d2">
+      <name>Schrank</name>
+      <state s="0">
+        <output input="examine" trigger_o="Vorrichtung">Im Schrank ist eine Vorrichtung mit 4 Steinen. Ein blauer, ein roter, ein grüner und ein gelber. Vielleicht musst du die Steine ordnen...?</output>
+      </state>
+      <state s="1">
+        <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+      </state>
+    </object>
+    <object id="d2">
+      <name>Vorrichtung</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine">Im Schrank ist eine Vorrichtung mit 4 Steinen. Ein blauer, ein roter, ein grüner und ein gelber. Vielleicht musst du die Steine ordnen...?</output>
+        <output input="solve" trigger_i="Messer" change_s="True" solution="blau gelb grün rot" trigger_o="Schrank">Du hast den Schrank geöffnet und darin ein Messer gefunden.</output>
+      </state>
+      <state s="2"></state>
+    </object>
+    <object id="d1">
+      <name>Spiegel</name>
+      <state s="0">
+        <output input="examine">Du siehst eine verschwommene Person hinter dir, wenn du in den Spiegel guckst. Aber wenn du dich umdrehst ist niemand da.</output>
+      </state>
+    </object>
+    <object id="d1">
+      <name>Badezimmerschrank</name>
+      <state s="0">
+        <output input="examine" trigger_o="Zahlenschloss">Der Schrank ist mit einem Zahlenschloss verriegelt. Vielleicht findest du irgendwo auf dem Grundstück einen Hinweis auf den Code?</output>
+      </state>
+      <state s="1">
+        <output input="examine">Hier gibt es nichts interessantes mehr.</output>
+      </state>
+    </object>
+    <object id="d1">
+      <name>Zahlenschloss</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine">Das Zahlenschloss benötigt vier Nummern, um geöffnet zu werden.</output>
+        <output input="solve" trigger_i="Säure" change_s="True" solution="3257" trigger_o="Badezimmerschrank">Das sind die richtigen Nummern gewesen. Du hast Säure im Schrank gefunden.</output>
+        <output input="open" trigger_i="Säure" change_s="True" solution="3257" trigger_o="Badezimmerschrank">Das sind die richtigen Nummern gewesen. Du hast Säure im Schrank gefunden.</output>
+      </state>
+      <state s="2"></state>
+    </object>
+    <object id="e2">
+      <name>Statue</name>
+      <state s="0">
+        <output input="examine">Du erkennst, dass der Statue ein Auge fehlt. Das andere Auge ist ein rubinfarbener Stein. Vielleicht ist das fehlende Auge ja ein Mechanismus für etwas? (Probier mal 'Statue aufschließen')</output>
+        <output input="unlock" change_s="True" key="augenförmiger Rubin" trigger_o="Loch">Ein Stein am Sockel der Statue fällt heraus und hinterlässt ein Loch im Sockel der Statue.</output>
+      </state>
+      <state s="1">
+        <output input="examine">Ein Stein liegt vor der Statue auf dem Boden.</output>
+      </state>
+    </object>
+    <object id="e2">
+      <name>Loch</name>
+      <state s="0"></state>
+      <state s="1">
+        <output input="examine" trigger_i="gewöhnlicher Schlüssel" change_s="True">Du findest einen gewöhnlichen Schlüssel</output>
+      </state>
+      <state s="2"></state>
+    </object>
+    <object id="e2">
+      <name>Bank</name>
+      <state s="0">
+        <output input="examine">Auf der Bank sind die Zahlen 3257 eingeritzt.</output>
+      </state>
+    </object>
+  </objects>
+</rooms>
